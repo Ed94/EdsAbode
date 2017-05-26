@@ -1,0 +1,105 @@
+.MainNav ul
+{
+    background-color: rgb(40, 40, 40);
+    
+    list-style-type: none;
+    
+    margin: 0;
+    
+    overflow: hidden;
+    
+    padding:     0;
+    postion: fixed;
+    
+    width: auto;
+}
+
+.MainNav li
+{
+    float: left;
+}
+    
+.MainNav li a
+{
+    color          : whitesmoke;
+    display        : block     ;
+    
+    font-size: calc(9pt + 0.5vw);
+    
+    padding        :       10px;
+    
+    text-align     : center;
+    text-decoration: none  ;
+}
+    
+.MainNav li a:hover
+{
+    background-color: rgb(180, 180, 180);
+    
+    color: black;
+    
+    transition: 0.2s;
+}
+
+.MainNav li span
+{   
+    color          : whitesmoke;
+    cursor         : pointer   ;
+    display        : block     ;
+    font-size      : calc(9pt + 0.5vw);
+    
+    padding        :       10px;
+    
+    text-align     : center;
+    text-decoration: none  ;
+}
+    
+.MainNav li span:hover
+{
+    background-color: rgb(180, 180, 180);
+    
+    color: black;
+    
+    transition: 0.2s;
+}
+
+.MainNav img#SideBtn
+{
+    float: right;
+    
+    top  : 0;
+    right: 0;
+    
+    height : calc(16px + 0.6vw);
+    padding:                6px;
+}
+
+.SideBtnVertNorm
+{
+    -moz-   transform: scaleX(1);
+    -o-     transform: scaleX(1);
+    -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+            filter: FlipH
+    -ms-    filter: "FlipH";
+}
+
+.SideBtnVertFlip
+{
+    /* Online code for flipping via: https://css-tricks.com/snippets/css/flip-an-image/ */
+    -moz-   transform: scaleX(-1);
+    -o-     transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+            filter: FlipH;
+    -ms-    filter: "FlipH";
+}
+
+.MainNav img:hover
+{
+    background-color: rgb(90, 90, 90);
+    
+    filter: invert();
+    
+    transition: 0.2s;
+}

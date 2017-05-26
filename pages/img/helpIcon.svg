@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.0"
+   width="200.000000pt"
+   height="200.000000pt"
+   viewBox="0 0 200.000000 200.000000"
+   preserveAspectRatio="xMidYMid meet"
+   id="svg4136"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="helpIcon.svg">
+  <defs
+     id="defs4150" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1057"
+     id="namedview4148"
+     showgrid="false"
+     inkscape:zoom="3.52"
+     inkscape:cx="125"
+     inkscape:cy="113.63636"
+     inkscape:window-x="1432"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg4136" />
+  <metadata
+     id="metadata4138">
+Created by potrace 1.14, written by Peter Selinger 2001-2017
+<rdf:RDF>
+  <cc:Work
+     rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type
+       rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+    <dc:title></dc:title>
+  </cc:Work>
+</rdf:RDF>
+</metadata>
+  <g
+     transform="translate(0.000000,200.000000) scale(0.100000,-0.100000)"
+     fill="#000000"
+     stroke="none"
+     id="g4140"
+     style="fill:#ff4cc3;fill-opacity:1">
+    <path
+       d="M830 1816 c-312 -72 -554 -302 -637 -606 -25 -91 -25 -329 0 -420 100 -367 430 -620 807 -620 461 0 830 369 830 830 0 375 -252 706 -615 806 -79 22 -309 28 -385 10z m280 -160 c148 -27 270 -91 370 -196 208 -217 244 -547 89 -806 -44 -72 -151 -179 -223 -223 -265 -159 -597 -118 -815 100 -148 148 -220 355 -191 551 43 298 253 519 545 573 91 17 134 17 225 1z"
+       id="path4142"
+       style="fill:#ff4cc3;fill-opacity:1" />
+    <path
+       d="M902 1406 c-97 -25 -140 -75 -149 -177 l-6 -60 74 3 73 3 8 40 c18 84 84 111 139 56 26 -26 29 -36 29 -91 0 -73 -7 -88 -72 -157 -55 -59 -78 -106 -78 -158 l0 -35 75 0 c52 0 77 4 79 13 3 6 7 24 10 39 3 15 31 55 61 90 70 80 88 118 93 194 3 46 -1 72 -15 105 -26 59 -70 109 -109 125 -49 20 -152 25 -212 10z"
+       id="path4144"
+       style="fill:#ff4cc3;fill-opacity:1" />
+    <path
+       d="M920 665 l0 -85 80 0 80 0 0 85 0 85 -80 0 -80 0 0 -85z"
+       id="path4146"
+       style="fill:#ff4cc3;fill-opacity:1" />
+  </g>
+</svg>

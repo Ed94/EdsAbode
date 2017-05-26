@@ -1,0 +1,56 @@
+html
+{
+    background : rgb(20,20,20)                          ;
+    color      : white                                  ;
+    font-family: 'Fira Sans Extra Condensed', sans-serif;    
+}
+
+/* --------------------------------------------Entire page------------------------------------------ */
+#main
+{
+    height: 100vh;
+    
+    overflow: hidden;
+    
+    transition: margin-right 0.2s;
+}
+
+.fluidFrame
+{
+    height : 100%;
+    
+    position: relative;
+    
+    overflow: hidden;
+}
+
+.fluidFrame, iframe
+{
+    position: relative;
+    
+    top : 0;
+    left: 0;
+    
+    width : 100%;
+    height: 100%;
+    
+    border : 0;
+    margin : 0;
+    padding: 0;
+}
+
+.pt-page-moveFromBottomFade 
+{
+	-webkit-animation: moveFromBottomFade .3s ease both;
+	        animation: moveFromBottomFade .3s ease both;
+}
+
+@-webkit-keyframes moveFromBottomFade 
+{
+	from { opacity: 0.3; -webkit-transform: translateY(100%); }
+}
+
+@keyframes moveFromBottomFade 
+{
+	from { opacity: 0.3; -webkit-transform: translateY(100%); transform: translateY(100%); }
+}

@@ -1,0 +1,90 @@
+<html lang = "en">
+    
+    <head>
+        
+        <meta> <charset = "UTF-8">   <!-- Unicode -->
+        
+        <!-- Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Fira+Sans+Extra+Condensed" rel="stylesheet">
+        <!-- CSS   -->
+        <link rel = "stylesheet" href = "css/reset.css"     >
+        <link rel = "stylesheet" href = "css/base.css"      >
+        <link rel = "stylesheet" href = "css/sideNav.css">
+        <link rel = "stylesheet" href = "css/mainNav.css">
+        <!-- JavaScript -->
+        <script type="text/javascript" src = "script/startup.js"                        ></script>
+        <script type="text/javascript" src = "script/sideNav.js"                        ></script>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        
+        <title>Eds Digital Abode</title> <!-- Website title on browser tab or information bar. -->
+        
+    </head> 
+        
+    <div id="sideNav" class = "SideNav">
+        <body>
+            <nav>
+                <ul>
+                    <img src="img/Ed.png">
+                
+                    <li><h1>Eds Digital Abode</h1></li>
+                
+                    <li><span onclick="openAbout  ()">About       </span></li>
+                    <li><span onclick="openContact()">Contact     </span></li>
+                    <li><span onclick="openOtherP ()">Other Places</span></li>
+                </ul>
+            </nav>
+        </body>
+    </div>
+        
+    <div id="main">
+        <body>
+            
+            <header>
+                <nav class="MainNav">
+                    <ul>
+                        <li><span onclick="openHome()">Home    </></li> 
+                        <li><span onclick="openBlog()">Blog    </></li> 
+                        <li><span onclick="openProj()">Projects</></li> 
+                        <li><span onclick="openGall()">Gallery </></li>
+    
+                        <span onclick="sideNav()">
+                            <img id="SideBtn" src="img/sideNav.png">
+                        </span>
+                    </ul>
+                </nav>
+            </header>
+            
+            <div class="fluidFrame">
+                <iframe id="frameMain"
+                    src = "pages/home.html";  name = "frameMain"; frameBorder="0"; class=".pt-page-moveFromBottomFade"
+                >
+                    This text only show's if browser does not support this page.
+                </iframe>
+            </div>
+            
+        </body>
+    </div>
+        
+    <script>
+        
+        window.onload = startUp();
+        
+        //Main Nav
+        function openHome() { document.getElementById("frameMain").src ="pages/home.html";     }
+        
+        function openBlog() { document.getElementById("frameMain").src ="pages/blog.html";     }
+        
+        function openProj() { document.getElementById("frameMain").src ="pages/projects.html"; }
+        
+        function openGall() { document.getElementById("frameMain").src ="pages/gallery.html";  }
+        
+        //Side Nav
+        function openAbout  () { document.getElementById("frameMain").src ="pages/about.html";       }        
+        
+        function openContact() { document.getElementById("frameMain").src ="pages/contact.html";     }
+        
+        function openOtherP () { document.getElementById('frameMain').src ="pages/otherPlaces.html"; }
+        
+    </script>
+        
+</html>

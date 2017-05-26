@@ -1,0 +1,68 @@
+<html lang="en">
+    
+    <head>
+        
+        <meta> <charset = "UTF-8">   <!-- Unicode -->
+        
+        <!-- Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"> 
+        <!-- CSS   -->
+        <link rel = "stylesheet" href = "css/reset.css"   >
+        <link rel = "stylesheet" href = "css/projects.css">
+
+    </head>
+        
+        
+    <body>
+        
+        <div>
+            <span id="DIV" class="projectClose" onClick="panelFocus('DIV')">
+                <h1>Project DIV</h1>
+                
+                <p>A game I'm making so far as a hobby to learn programming amonst other things. So far I'm still building the engine for it: Abstract Realm.</p>
+            </span>
+        </div>
+            
+        <div id="abstractRealm" class="projectClose"  onClick="panelFocus('abstractRealm')">
+            <h1>Abstract Realm</h1>
+            
+            <p>An engine skeleton built with the Monogame Framework. The engine is intended for 2D games that want 3D mechancis, however with modification can easily support full 3D.</p>
+            
+            <a href="https://github.com/Ed94/AbstractRealm" target="_blank">
+                    <img id"imgLink" src="/pages/img/GitHub-Mark-Light-32px.png">
+                </a>
+        </div>
+        
+        <div id="mRemaster" class="projectClose" onclick="panelFocus('mRemaster')">
+            <h1> Melee Remastered</h1>
+            
+            <p>An ongoing effort to Remaster Super Smash Bros. Melee's, character and legal stage textures, stage lighting, and a custom shader configuration for the dolphin emulator.<br/><br/>
+            
+            Currently working on the first major release: Top 8 Complete.</p>
+            
+            <span>
+                <a href="https://smashboards.com/threads/melee-remaster-textures-marth-and-sheik-complete-5-7-2016-source-files-updated-4-1-2017.429671/" target="_blank">
+                    <img id"imgLink" src="/pages/img/smashboards.png">
+                </a>
+            </span>
+        </div>
+    
+    </body>
+
+    <script>
+    
+        function panelFocus(a)
+        {
+            var name = document.getElementById(a);
+            
+            if (name.getAttribute("class") == "projectClose")
+            {
+                name.setAttribute("class", "projectOpen");
+            }
+            else
+            {
+                name.setAttribute("class", "projectClose");
+            }
+        }
+    
+    </script>
