@@ -1,43 +1,92 @@
-<html lang="en">
+<!DOCTYPE html>
+
+<html lang = "en">
     
     <head>
-        
-        <meta> <charset = "UTF-8">   <!-- Unicode -->
+        <meta charset = "UTF-8">   <!-- Unicode -->
         
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"> 
         <!-- CSS   -->
-        <link rel = "stylesheet" href = "css/reset.css">
         <link rel = "stylesheet" href = "css/blog.css" >
         
+        <title>Blog</title>
     </head>
         
         
     <body>
     
-        <div id="3" class="entry">
+        <div class="entry" id="3">
+            <h1>Melee Remastered Top 8 Complete Released!</h1>
             
-            <h1 id="title">First Post...</h1>
+            <h2>July 29th, 2017</h2>
             
-            <h2 id="date">May 8th, 2017</h2>
+            <p>
+                I first got into the smash scene through a modification of Super Smash Bros. Brawl called Project M. Which made it more like its previous interation Super Smash Bros. Melee. The game features a major rebalance to the cast. Along with adding back in a bunch of the mechanical features that made melee the competitive fast pace technical frenzy. Which continues to be played as an esport to this day. Project M had a great modding scene, and I decided to use the Post-Processing capabilites of a custom distribution of Dolphin called Ishiiruka to configure my own shader for the game. The shader was suprisingly well recieved by the community as well.
+                <a href="https://www.reddit.com/r/SSBPM/comments/3ocl6m/i_made_a_shader_for_pm/" target="_blank">
+                The shader was suprisingly well recieved by the community as well.
+                </a> 
+            </p>
+               
+            <iframe 
+            frameborder="0" allowfullscreen alt="PM Shader Video" src="https://www.youtube.com/embed/Wfbg9A-EeA4">
+            </iframe>
+                
+            <p>
+                While Project M dwindled in popularity from legal hurdles, Melee is still strong and enjoy's a thriving community, I've also grown to like its feel over Project M, so I started to mod it and play it more. The first thing I did was get the 20XX hackpack and attempted to make a shader for Melee as well. Ishiiruka-Dolphin was able to add Tone Mapping, SSAO, SSGI, Bloom, Pixel Vibrance, Phong Lighting, Auto-Generated Bump maps, and more without completely destorying the peformance of something that was already trying to emulate the hardware of the gamecube. <br/><br/>
+                
+                The result of the shader was alright, but seemed over done and the characters looked to washed out.  The reason was to try to fix the incorrect colors on many characters. The color balance on many textures was incorrect amont other things, leading me to over compensate for it in the shader. So I tried my hand at correcting the textures for the most popular character in the game, Fox. Many of his textures for his clothing needed to be color corrected such as his jacket which was tinted greenish beige, his fur was also over saturated with yellow. With the color correction I also did small touch ups, and redid the tone curve for each texture. Due to the amount of textures involved along with creating custom Character portraits and corrected stock icons, to finish the character in all his skins took around 5 hours(Longest since it was the first). The result of it was unbelivable. The character looked much cleaner and fresh; similar to a restoration of a vintage vehicle, without the use of any shaders. 
+            </p>
             
-            <p id="content">
+            <div class="imgFox" id="before">
+               <p id="imgDesc">Before</p>
+               
+               <img id="foxBefore" src="http://i.imgur.com/tbogF80.png" alt="fox before"> 
+            </div>
+              
+            <div class="imgFox" >
+               <p id="imgDesc">After</p>
+               
+               <img id="foxAfter"  src="http://i.imgur.com/AfU30rV.png" alt="fox after" >
+            </div>
+            
+            <p>
+                With the satifsying result motivating me, I decided to continue to remaster various textures. The was named Melee Remastered and so far focused on improving the shader and textures of the game. Curernt focus was on getting the characters and legal stages for competitive play done. The characters were done in order of the 2015 tier list. After over a year, the first major release of this project has been released as "Top 8 Complete". The characters completed are Fox, Falco, Marth,  Shiek, Jigglypuff, Peach, Captain Falcon, and Ice Climbers. To be complete, all their skins needed to be finished, along with new Character Select Portraits for the selection menu, and remastered stock icons. As for the stages, they have had all their textures done, however I have plans in the future to adjust the stage lighting in the future without using shader by hacking the file. The shader is also completey different with the lastest version looking almost as good(if not better) than the one I originally made for Project M.
+            </p>
+            
+            <iframe 
+            frameborder="0" allowfullscreen alt="Melee Remastered Video" src="https://www.youtube.com/embed/R6wYTpPiLfs">
+            </iframe>
+            
+            <p>
+                Since the lastest release, the project has garnered a positive reponse along with plenty of feedback. I was suprised just how much you can learn from somthing like a modding project past just using an image editor and processs to adjust texture. My original intent with this project was to become proficient in Photoshop and Gimp. However doing this project allowed me to further improve my ability to stream and record with Open Broadcaster Studio, furthered me into the world of color calibrating displays, using batch files in windows, and some PowerPC assembly. Plus it gave me and a better understanding of marketing something properly, obtaining feedback, and properly managing such a thing. Its suprising how much is involved with just producing a mod for a game. To an extent, it can be almost as much work as making one. <br></br>
+                
+                Knowing that those in the community want to see more, I will continue the project at least until all the characters are completed, and the stage lighting has been adjusted.
+            </p>
+            
+        </div>
+    
+    
+        <div class="entry" id="3">
+            <h1>First Post...</h1>
+            
+            <h2>May 8th, 2017</h2>
+            
+            <p>
             This is the first post since creating this website. I've been wanting to create a personal hub from sratch; learning html and the other various tid bits for programming/designing a website as I go. In the future, I plan to post here various things I do or occur in my life. These include updates for this site, projects I'm doing, or stuff I create in general. <br/><br/>
             
             Before I put up new posts however, I'll be posting some stuff that has occured before I made this site. I'll have these below this post. <br/><br/>
                 
             For this inital version of this site, I'll be saving an archived version of it to look back on in the future. If your intrested in seeing what this page originally looked like it will be accessible as a link in this post.
             </p>
-            
         </div>
         
-        <div id="2" class="entry">
+        <div class="entry" id="2">
+            <h1>Mango Hacks 2017</h1>
             
-            <h1 id="title">Mango Hacks 2017</h1>
-            
-            <h2 id="date">February 24-26, 2017</h2></h1>
+            <h2>February 24-26, 2017</h2>
         
-            <p id="content">
+            <p>
             Went to my first hackathon. It was similar to the Global Game Jam. We were given roughly 60 hours to make something. This was probably the best thing that happend in my spring semester at FIU. There was a bunch of energy, activity, and plenty of people to meet and have fun with.<br/><br/>
             
             Since I had never gone to one of these before I brough evertyhing I had that would be useful, this included, my laptop, desktop, a bunch of gamepads, the destkop, bluetooth speaker, headphones, and an HTC Vive. At the entrance most of the sponsors had booths and discussed with us with State Farm asking us to fill out a survey, and IBM was giving out a Rasphberry PI 3. I picked one of those up quickly as the supply was going to run dry soon.<br/><br/>
@@ -54,25 +103,22 @@
             </p>
         </div>
         
-        <div id="1" class="entry">
+        <div class="entry" id="1">
+            <h1>Participated in a gesture study for OpenHID</h1>
             
-            <h1 id="title">Participated in a gesture study for OpenHID</h1>
+            <h2>January 26, 2017</h2>
             
-            <h2 id="date">January 26, 2017</h2>
-            
-            <p id="content">
+            <p>
                 
             I found out about OpenHid through my FIU email recently and decided to sign up for when of their research studies as a participant. I found out they are a human interaction design lab. While there they had me do various gestures multiple times on a all-in-one pc with a touch screen. While there I noticed they also had an HTC Vive laying around.</p>
-        
         </div>
         
-        <div id="0" class="entry">
+        <div class="entry" id="0">
+            <h1>Global Game Jam @ FIU </h1>
             
-            <h1 id="title">Global Game Jam @ FIU </h1>
+            <h2>Januaray 20-22, 2017</h2>
             
-            <h2 id="date">Januaray 20-22, 2017</h2>
-            
-            <p id="content">
+            <p>
             During the first meeting at UPE that I attended, they discussed a sort of 'hackathon' for video games called a game jam." As someone already making a game in their free time I was naturally intrested to I signed myself up for the event. Essentially we had a bit less than 72 hours to make a video game based on a theme announced during the opening ceremony for the event.<br/><br/>
                 
             I was able to quickly team up with a group. We at first decided to do a top down game where a character navigates using echo location, avoiding enemies as they go. We then scrapped that half way through and went with 3D horror where red radar waves scan through the entire maps's models to give player's a sense of where they are while they run away from various enemies they encounter as they traverse through the map. If they are able to avoid all the enemies and get through they win. If they get touched by a single enemy they lose.<br/><br/>
@@ -81,7 +127,8 @@
                 
             During awards, people voted ours as best overall experience and we won a game making book, Level Up Game Design!
             </p>
-            
         </div>
     
     </body>
+    
+</html>

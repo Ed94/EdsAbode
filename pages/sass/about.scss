@@ -1,0 +1,24 @@
+html
+{
+    background: rgb(20,20,20);
+    color     :         white;
+    
+    font-family: 'Open Sans', sans-serif;
+}
+
+.frame
+{
+    background-image: url('/pages/img/BkPattern.png');
+    
+    color: whitesmoke;
+    
+    border      :  4px             ;
+    border-style: solid            ;
+    border-color: rgb(240 ,170 ,35);
+    
+    margin: 4vw;
+    
+    font-size: calc(8pt + 0.3vw);
+    
+    padding: 2vw;
+}

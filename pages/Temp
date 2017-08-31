@@ -1,0 +1,123 @@
+<!-- Should be organized galleries of image content in gallery-->
+        
+        <!-- Year Specfic -->
+        <div id="date" class= "Filter">
+          
+          <h1 class="Name">Dates</h1>
+          
+           <ol>
+               <li class="galleryVisible">2017   </li>
+               <li class="galleryVisible">2016   </li>
+               <li class="galleryVisible">2015   </li>
+               <li class="galleryVisible">2014   </li>
+               <li class="galleryVisible">Ancient</li>
+           </ol>
+        </div>
+        
+        <!-- Project Specific -->
+        <div id="project" class= "Filter">
+            <h1 class="Name">Projects</h1>
+            
+            <ol>
+                <li class="galleryVisible">Project DIV     </li>
+                <li class="galleryVisible">Abstract Realm  </li>
+                <li class="galleryVisible">Melee Remastered</li>
+            </ol>
+        </div>
+    
+        <div id="commissions" class= "Filter">
+            <h1 class="Name">Commissions</h1>
+            
+            <ol>
+                <li class="galleryVisible">Jazzy Renditions: Buissness Card</li>
+            </ol>
+        </div>
+        
+        <!-- A streamed in list of everything -->
+        <div id="all" class="everything">
+            
+        </div>
+        
+        
+        
+        
+        .Filter
+{
+    background: black;
+    
+    margin: 0px
+}
+
+.Filter #Name
+{
+    padding-top: 0.5vw;
+    padding-left: 5vw;
+}
+
+
+.galleryVisible
+{
+    /*background-color: rgb(70, 70, 70);*/
+    border-color    : rgb(70, 70, 70);
+    border-style    :           solid;
+    
+    display: inline-block;
+    
+    padding: 2vw;
+    
+    text-align: center;
+    
+    text-decoration: none;
+    
+    margin-bottom: 1vw;
+}
+
+.galleryHidden
+{
+    
+}
+
+.galleryVisible:hover
+{
+    background-color: rgb(30, 30, 30);
+}
+
+//#mRemaster
+//{
+//    color: white;
+//    
+//    background-image: url(https://files.catbox.moe/e7vgld.png);
+//    background-repeat: no-repeat;
+//    background-size: 150%;
+//    
+//    background-position: center;
+//    
+//    h1
+//    {
+//        position: relative;
+//        
+//        left: -3vw;
+//        top: 2vw;
+//    }
+//}
+//
+//#digitalArt 
+//{
+//	background-image: 
+//        url(https://img11.deviantart.net/a682/i/2015/294/3/d/read_head_model_revised_b_and_w__by_edwardg94-d9dxm7s.png);
+//    
+//    background-repeat: no-repeat;
+//    background-size: 350%;
+//    
+//    background-position: 52% 9%;
+//    
+//    h1
+//    {
+//        color: white;
+//        
+//        position: relative;
+//        
+//        left: 4vw;
+//        top: -1.7vw;
+//    }
+//}

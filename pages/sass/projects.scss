@@ -1,0 +1,187 @@
+html
+{
+    background : rgb(20,20,20);
+    color      :         white;
+    
+    font-family: 'Open Sans', sans-serif;
+}
+
+.projectClose
+{
+    cursor          : pointer;
+    background-color: black  ;
+    
+    border-style: solid;
+    border-color: black;
+    
+    display: block;
+
+    margin       :    1vw;
+    margin-top   :    1vw;
+    margin-left  :    30%;
+    margin-bottom:  0.5vw;
+    
+    opacity: 0.75;
+    
+    padding: 5.4vw;
+    
+    position: relative;
+    
+    max-width: 25%;
+    max-height: 1.5vw;
+    
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.4s;
+
+     h1
+    {
+        font-size: calc(1pt + 1.5vw);
+    
+        color: rgb(220, 220, 220);
+    
+        position: relative;
+    
+        left: -3vw;
+        top : 1.3vw;
+    
+        text-rendering: optimizeLegibility;
+    }
+    
+    p
+    {
+        opacity: 0;
+    
+        margin : 0;
+        padding: 0;
+        height : 0;
+    }
+    
+    img
+    {
+        opacity: 0;
+    
+        transition-timing-function: ease-in-out;
+        transition-duration: 0.1s;
+    }
+}
+
+.projectClose:hover
+{
+    border-color: rgb(230, 230, 230);
+    
+    color: rgb(240, 240, 240);
+    
+    opacity: 1.0;
+    
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.4s;
+}
+
+.projectClose#abstractRealm
+{
+    background-image: url('/pages/img/arBKeffected.png');
+    
+    background-position: right;
+    background-repeat  : no-repeat;
+    background-size    :  110%;
+}
+
+.projectClose#mRemaster
+{
+    background-image: url('/pages/img/MRemasterBk.png');
+    
+    background-position:       2vw;
+    background-repeat  : no-repeat;
+    background-size    :      120%;
+}
+
+.projectOpen
+{
+    cursor         : pointer;
+    
+    background-color: black;
+    
+    border-style: solid;
+    border-color: black;
+    
+    display: block;
+    
+    margin-top  : 7vw;
+    margin-left : 5%;
+    margin-right: 5%;
+    
+    opacity: 1;
+    
+    padding: 5.4vw;
+    
+    position: absolute;
+    
+    top: 0;
+    
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.4s;
+    
+    z-index: 10;
+    
+    h1
+    {
+        font-size: calc(8pt + 1vw);
+    
+        color: rgb(220, 220, 220);
+    
+        position: relative;
+    
+        left: 3vw;
+        top :  -2vw;
+    
+        text-rendering: optimizeLegibility;
+    
+        transition-timing-function: ease-in-out;
+        transition-duration: 0.8s;
+    }
+    
+    img
+    {
+        opacity: 1;
+    
+        transition-timing-function: ease-in-out;
+        transition-duration: 0.4s;
+    }
+    
+    p
+    {
+        opacity: 1;
+    
+        margin-right: 35vw;
+        padding: 0.5vw;
+    
+        transition-timing-function: ease-in-out;
+        transition-duration: 0.6s;
+    }
+}
+
+.projectOpen#abstractRealm
+{
+    background-color: black;
+    
+    background-image: url('/pages/img/arBKeffected.png');
+    
+    background-position:     center;
+    background-repeat  :  no-repeat;
+    background-size    :       100%;
+    
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.4s;
+}
+
+.projectOpen#mRemaster
+{
+    background-image: url('/pages/img/MRemasterBk.png');
+    
+    background-position:       115%;
+    background-repeat  :  no-repeat;
+    background-size    :        50%;
+    
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.4s;
+}

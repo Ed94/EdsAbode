@@ -1,24 +1,18 @@
-html
-{
-    background: rgb(20,20,20);
-    color     :         white;
-    
-    font-family: 'Open Sans', sans-serif;
-}
+/* line 1, ../sass/about.scss */
+html {
+  background: #141414;
+  color: white;
+  font-family: 'Open Sans', sans-serif; }
 
-.frame
-{
-    background-image: url('/pages/img/BkPattern.png');
-    
-    border      :  4px;
-    border-style: solid;
-    border-color: rgb(240 ,170 ,35);
-    
-    color: whitesmoke;
-    
-    margin: 4vw;
-    
-    font-size: calc(8pt + 0.3vw);
-    
-    padding: 2vw;
-}
+/* line 9, ../sass/about.scss */
+.frame {
+  background-image: url("/pages/img/BkPattern.png");
+  color: whitesmoke;
+  border: 4px;
+  border-style: solid;
+  border-color: #f0aa23;
+  margin: 4vw;
+  font-size: calc(8pt + 0.3vw);
+  padding: 2vw; }
+
+/*# sourceMappingURL=about.css.map */

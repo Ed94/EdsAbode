@@ -1,81 +1,53 @@
-html
-{
-    font-family: 'Fira Sans Extra Condensed', sans-serif;
-    background : rgb(20,20,20)                          ;
-}
+/* line 1, ../sass/sideNav.scss */
+html {
+  font-family: 'Fira Sans Extra Condensed', sans-serif;
+  background: #141414; }
 
-.SideNav
-{
-    background-color: rgb(240 ,170 ,35);
-    
-    position: fixed;
-    
-    height: 100%;
-    width : 15vw;
-    
-    top  : 0;
-    right: 0;
-    
-    overflow-x: hidden;
-    
-    transition: 0.2s;
-    
-    z-index: 1;
-}
-
-.SideNav ul
-{
-    width: 15vw;
-}
-
-.SideNav li h1
-{
-    color  : white;
-    display: block;
-    padding:  12px;
-    
-    font-size  : calc(10pt + 0.5vw);
-    font-weight:                300;
-    
-    letter-spacing: 0.6px;
-    
-    text-align     : center;
-    text-decoration: none  ;
-}
-
-.SideNav li span
-{
+/* line 7, ../sass/sideNav.scss */
+.sideNav {
+  background-color: #f0aa23;
+  position: fixed;
+  height: 100%;
+  width: 15vw;
+  top: 0;
+  right: 0;
+  overflow-x: hidden;
+  transition: 0.2s;
+  z-index: 1; }
+  /* line 25, ../sass/sideNav.scss */
+  .sideNav h1 {
     color: white;
-    
-    cursor: pointer;
-        
     display: block;
-    
-    margin :     0;
-    padding:  12px;
-    
-    font-size: calc(8pt + 0.5vw);
-    
-    text-align     : center;
-    text-decoration: none  ;
-    
-    text-emphasis: 1px;
-
-    transition: 0.2s;
-}
-
-.SideNav li span:hover
-{
-    color           : rgb(240, 170, 35);
-    background-color: rgb( 40,  40, 40);
-}
-
-.SideNav img
-{
+    padding: 12px;
+    font-size: calc(10pt + 0.5vw);
+    font-weight: 300;
+    letter-spacing: 0.6px;
+    text-align: center;
+    text-decoration: none; }
+  /* line 40, ../sass/sideNav.scss */
+  .sideNav ul {
+    width: 15vw; }
+    /* line 44, ../sass/sideNav.scss */
+    .sideNav ul li {
+      color: white;
+      cursor: pointer;
+      display: block;
+      margin: 0;
+      padding: 12px;
+      font-size: calc(8pt + 0.5vw);
+      text-align: center;
+      text-decoration: none;
+      text-emphasis: 1px;
+      transition: 0.2s; }
+    /* line 65, ../sass/sideNav.scss */
+    .sideNav ul li:hover {
+      color: #f0aa23;
+      background-color: #282828; }
+  /* line 72, ../sass/sideNav.scss */
+  .sideNav img {
     display: block;
-    
-    margin-left : auto;
+    margin-left: auto;
     margin-right: auto;
-    
-    width: inherit;
-}
+    width: 15vw; }
+
+/*# sourceMappingURL=sideNav.css.map */

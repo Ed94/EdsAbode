@@ -1,13 +1,13 @@
-function open(a)
+function panelFocus(a)
 {
-    var name     = document.getElementById(a);
-    
-    if (name.style.margin == "1vw")
+    var name = document.getElementById(a);
+              
+    if (name.getAttribute("class") == "projectClose")
     {
-         name.style.margin = "0";
+         name.setAttribute("class", "projectOpen");
     }
-    else 
+    else
     {
-        name.className = "KillMePlease";
+        name.setAttribute("class", "projectClose");
     }
 }

@@ -1,69 +1,88 @@
-html
-{
-    color: white;
-    
-    background           : rgb(65, 65, 65);
-    background-blend-mode:      difference;
-    background-repeat    :          repeat;
-    background-size      :             4vw;
-    background-image     : url("/pages/img/escheresque_ste.png"); /* Thanks to: Ste Patten */
-    
-    font-family: 'Open Sans', sans-serif;
-    
-    margin-top: 1.5vw;
-}
+/* line 1, ../sass/blog.scss */
+html {
+  color: white;
+  background: #414141;
+  background-blend-mode: difference;
+  background-repeat: repeat;
+  background-size: 4vw;
+  background-image: url("/pages/img/escheresque_ste.png");
+  /* Thanks to: Ste Patten */
+  font-family: 'Open Sans', sans-serif;
+  margin-top: 1.5vw; }
 
-.entry 
-{
-    border-color : rgb(240, 240, 240);
-    border-width :                5px;
-    border-radius:               10px;
-    border-style :              solid;
-    
-    margin-left  : 10%;
-    margin-right : 10%;
-    margin-bottom:  4%;
-    
-    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#b7b7b7+0,ffffff+6,ffffff+94,b7b7b7+100 */
-    background: #b7b7b7; /* Old browsers */
-    background: -moz-linear-gradient(left, #b7b7b7 0%, #ffffff 6%, #ffffff 94%, #b7b7b7 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(left, #b7b7b7 0%,#ffffff 6%,#ffffff 94%,#b7b7b7 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to right, #b7b7b7 0%,#ffffff 6%,#ffffff 94%,#b7b7b7 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b7b7b7', endColorstr='#b7b7b7',GradientType=1 ); /* IE6-9 */
-}
-
-.entry #title
-{
-    background-color: rgb(40, 40, 40);
-    
+/* line 16, ../sass/blog.scss */
+.entry {
+  border-color: #f0f0f0;
+  border-width: 5px;
+  border-radius: 10px;
+  border-style: solid;
+  margin-left: -33%;
+  margin-bottom: 4%;
+  max-width: 65%;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#b7b7b7+0,ffffff+6,ffffff+94,b7b7b7+100 */
+  background: #b7b7b7;
+  /* Old browsers */
+  background: -moz-linear-gradient(left, #b7b7b7 0%, #ffffff 6%, #ffffff 94%, #b7b7b7 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, #b7b7b7 0%, #ffffff 6%, #ffffff 94%, #b7b7b7 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #b7b7b7 0%, #ffffff 6%, #ffffff 94%, #b7b7b7 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b7b7b7', endColorstr='#b7b7b7',GradientType=1 );
+  /* IE6-9 */ }
+  /* line 40, ../sass/blog.scss */
+  .entry h1 {
+    background-color: #282828;
     font-size: calc(6pt + 1.5vw);
-    
     margin: 0;
-    
-    padding     :  4px;
-    padding-left: 40px;
-}
-
-.entry #date 
-{
-    background-color: rgb(240, 170, 35);
-    
-    color: rgb(20, 20, 20);
-    
+    padding: 4px;
+    padding-left: 40px; }
+  /* line 52, ../sass/blog.scss */
+  .entry h2 {
+    background-color: #f0aa23;
+    color: #141414;
     font-size: calc(3.5pt + 0.5vw);
-    
     margin: 0 !important;
-    
-    padding     :  5px;
-    padding-left: 60px;
-}
-
-.entry #content
-{
+    padding: 5px;
+    padding-left: 60px; }
+  /* line 66, ../sass/blog.scss */
+  .entry p {
     color: black;
-    
-    font-size: calc(6pt + 0.5vw);
-    
+    font-size: calc(3pt + 0.7vw);
     padding-right: 7%;
-    padding-left : 7%;
-}
+    padding-left: 7%; }
+  /* line 76, ../sass/blog.scss */
+  .entry iframe {
+    margion: 0px;
+    display: block;
+    width: 32vw;
+    height: 18vw;
+    margin-left: 28%; }
+
+/* line 87, ../sass/blog.scss */
+#before {
+  margin-left: 23%; }
+
+/* line 90, ../sass/blog.scss */
+#imgDesc {
+  margin-left: 35%; }
+
+/* line 93, ../sass/blog.scss */
+#foxBefore {
+  width: 20vw; }
+
+/* line 94, ../sass/blog.scss */
+#foxAfter {
+  width: 19.76vw; }
+
+/* line 96, ../sass/blog.scss */
+.imgFox {
+  display: inline-block;
+  margin: 0;
+  padding: 0; }
+
+/*# sourceMappingURL=blog.css.map */

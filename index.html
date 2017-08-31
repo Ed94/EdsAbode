@@ -1,90 +1,76 @@
+<!DOCTYPE HTML>
+
 <html lang = "en">
     
     <head>
-        
-        <meta> <charset = "UTF-8">   <!-- Unicode -->
+        <meta charset="UTF-8">
         
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Fira+Sans+Extra+Condensed" rel="stylesheet">
-        <!-- CSS   -->
-        <link rel = "stylesheet" href = "css/reset.css"     >
-        <link rel = "stylesheet" href = "css/base.css"      >
-        <link rel = "stylesheet" href = "css/sideNav.css">
-        <link rel = "stylesheet" href = "css/mainNav.css">
+        <!-- CSS -->
+        <link type="text/css" rel = "stylesheet" href = "css/reset.css"  >
+        <link type="text/css" rel = "stylesheet" href = "css/base.css"   >
+        <link type="text/css" rel = "stylesheet" href = "css/sideNav.css">
+        <link type="text/css" rel = "stylesheet" href = "css/mainNav.css">
         <!-- JavaScript -->
-        <script type="text/javascript" src = "script/startup.js"                        ></script>
-        <script type="text/javascript" src = "script/sideNav.js"                        ></script>
-        <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script src="jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src = "script/startup.js"></script>
+        <script type="text/javascript" src = "script/sideNav.js"></script>
         
-        <title>Eds Digital Abode</title> <!-- Website title on browser tab or information bar. -->
-        
+        <title>Eds Digital Abode</title>
     </head> 
-        
-    <div id="sideNav" class = "SideNav">
-        <body>
+    
+    <body>
+       
+        <div id="sideNav" class = "sideNav">
             <nav>
+                <img alt="Avatar" src="img/Ed.png">
+                
+                <h1>Eds Digital Abode</h1>
+                
                 <ul>
-                    <img src="img/Ed.png">
-                
-                    <li><h1>Eds Digital Abode</h1></li>
-                
-                    <li><span onclick="openAbout  ()">About       </span></li>
-                    <li><span onclick="openContact()">Contact     </span></li>
-                    <li><span onclick="openOtherP ()">Other Places</span></li>
+                    <li onclick="openAbout  ()">About       </li>
+                    <li onclick="openContact()">Contact     </li>
+                    <li onclick="openOtherP ()">Other Places</li>
                 </ul>
             </nav>
-        </body>
-    </div>
+        </div>
         
-    <div id="main">
-        <body>
-            
+        <div id="main" class="mainNav">
             <header>
-                <nav class="MainNav">
+                <nav>
                     <ul>
-                        <li><span onclick="openHome()">Home    </></li> 
-                        <li><span onclick="openBlog()">Blog    </></li> 
-                        <li><span onclick="openProj()">Projects</></li> 
-                        <li><span onclick="openGall()">Gallery </></li>
+                        <li class="subpage"><span onclick="openHome()">Home    </span></li> 
+                        <li class="subpage"><span onclick="openBlog()">Blog    </span></li> 
+                        <li class="subpage"><span onclick="openProj()">Projects</span></li> 
+                        <li class="subpage"><span onclick="openGall()">Gallery </span></li>
     
-                        <span onclick="sideNav()">
-                            <img id="SideBtn" src="img/sideNav.png">
-                        </span>
+                        <li id="SideBtn" class="SideBtnVertNorm" onclick="sideNav()">
+                           <span><img alt="Side Nav Button" src="img/sideNav.png"></span>
+                        </li>
                     </ul>
                 </nav>
             </header>
+                    
+            <iframe class="fluidFrame" id="frameMain"
+                    src = "pages/home.html" name = "frameMain" allowfullscreen>
+            </iframe>
+        </div>
+        
+        <script>
+            window.onload = startUp();
             
-            <div class="fluidFrame">
-                <iframe id="frameMain"
-                    src = "pages/home.html";  name = "frameMain"; frameBorder="0"; class=".pt-page-moveFromBottomFade"
-                >
-                    This text only show's if browser does not support this page.
-                </iframe>
-            </div>
-            
-        </body>
-    </div>
+            //Main Nav
+            function openHome() { document.getElementById("frameMain").src ="pages/home.html"    ; }
+            function openBlog() { document.getElementById("frameMain").src ="pages/blog.html"    ; }
+            function openProj() { document.getElementById("frameMain").src ="pages/projects.html"; }
+            function openGall() { document.getElementById("frameMain").src ="pages/gallery.html" ; }
+            //Side Nav
+            function openAbout  () { document.getElementById("frameMain").src ="pages/about.html"      ; }
+            function openContact() { document.getElementById("frameMain").src ="pages/contact.html"    ; }
+            function openOtherP () { document.getElementById('frameMain').src ="pages/otherPlaces.html"; }
+        </script>
         
-    <script>
-        
-        window.onload = startUp();
-        
-        //Main Nav
-        function openHome() { document.getElementById("frameMain").src ="pages/home.html";     }
-        
-        function openBlog() { document.getElementById("frameMain").src ="pages/blog.html";     }
-        
-        function openProj() { document.getElementById("frameMain").src ="pages/projects.html"; }
-        
-        function openGall() { document.getElementById("frameMain").src ="pages/gallery.html";  }
-        
-        //Side Nav
-        function openAbout  () { document.getElementById("frameMain").src ="pages/about.html";       }        
-        
-        function openContact() { document.getElementById("frameMain").src ="pages/contact.html";     }
-        
-        function openOtherP () { document.getElementById('frameMain').src ="pages/otherPlaces.html"; }
-        
-    </script>
-        
-</html>
+    </body>
+    
+</html> 

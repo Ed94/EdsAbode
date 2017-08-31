@@ -1,105 +1,59 @@
-.MainNav ul
-{
-    background-color: rgb(40, 40, 40);
-    
-    list-style-type: none;
-    
-    margin: 0;
-    
-    overflow: hidden;
-    
-    padding:     0;
-    postion: fixed;
-    
-    width: auto;
+/* line 1, ../sass/mainNav.scss */
+html {
+  background: #141414;
+  font-family: 'Fira Sans Extra Condensed', sans-serif;
 }
 
-.MainNav li
-{
-    float: left;
+/* line 10, ../sass/mainNav.scss */
+.mainNav ul {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: #282828;
+  margin: 0;
+  padding: 0;
+  width: auto;
 }
-    
-.MainNav li a
-{
-    color          : whitesmoke;
-    display        : block     ;
-    
-    font-size: calc(9pt + 0.5vw);
-    
-    padding        :       10px;
-    
-    text-align     : center;
-    text-decoration: none  ;
+/* line 24, ../sass/mainNav.scss */
+.mainNav li.subpage {
+  float: left;
+  color: whitesmoke;
+  display: block;
+  font-size: calc(9pt + 0.5vw);
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
 }
-    
-.MainNav li a:hover
-{
-    background-color: rgb(180, 180, 180);
-    
-    color: black;
-    
-    transition: 0.2s;
+/* line 40, ../sass/mainNav.scss */
+.mainNav li.subpage:hover {
+  background-color: #b4b4b4;
+  color: black;
+  transition: 0.2s;
 }
-
-.MainNav li span
-{   
-    color          : whitesmoke;
-    cursor         : pointer   ;
-    display        : block     ;
-    font-size      : calc(9pt + 0.5vw);
-    
-    padding        :       10px;
-    
-    text-align     : center;
-    text-decoration: none  ;
+/* line 49, ../sass/mainNav.scss */
+.mainNav li img {
+  float: right;
+  height: calc(16px + 0.6vw);
+  padding: 7px;
 }
-    
-.MainNav li span:hover
-{
-    background-color: rgb(180, 180, 180);
-    
-    color: black;
-    
-    transition: 0.2s;
+/* line 57, ../sass/mainNav.scss */
+.mainNav li img:hover {
+  background-color: #5a5a5a;
+  filter: invert(1);
+  transition: 0.2s;
 }
 
-.MainNav img#SideBtn
-{
-    float: right;
-    
-    top  : 0;
-    right: 0;
-    
-    height : calc(16px + 0.6vw);
-    padding:                6px;
+/* line 67, ../sass/mainNav.scss */
+.SideBtnVertNorm {
+  transform: scaleX(1);
+  filter: FlipH;
 }
 
-.SideBtnVertNorm
-{
-    -moz-   transform: scaleX(1);
-    -o-     transform: scaleX(1);
-    -webkit-transform: scaleX(1);
-            transform: scaleX(1);
-            filter: FlipH
-    -ms-    filter: "FlipH";
+/* line 74, ../sass/mainNav.scss */
+.SideBtnVertFlip {
+  transform: scaleX(-1);
+  filter: FlipH;
+  float: right;
 }
 
-.SideBtnVertFlip
-{
-    /* Online code for flipping via: https://css-tricks.com/snippets/css/flip-an-image/ */
-    -moz-   transform: scaleX(-1);
-    -o-     transform: scaleX(-1);
-    -webkit-transform: scaleX(-1);
-            transform: scaleX(-1);
-            filter: FlipH;
-    -ms-    filter: "FlipH";
-}
-
-.MainNav img:hover
-{
-    background-color: rgb(90, 90, 90);
-    
-    filter: invert();
-    
-    transition: 0.2s;
-}
+/*# sourceMappingURL=mainNav.css.map */

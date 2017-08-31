@@ -1,0 +1,67 @@
+/* line 1, ../sass/gallerySection.scss */
+html {
+  background-color: black;
+  background-image: url("http://i.imgur.com/3l9PBCF.png");
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  font-family: 'Open Sans', sans-serif; }
+
+/* line 16, ../sass/gallerySection.scss */
+body {
+  margin: 0;
+  width: auto;
+  overflow-x: hidden;
+  overflow-y: auto;
+  white-space: normal; }
+
+/* line 27, ../sass/gallerySection.scss */
+.Piece {
+  display: inline-block;
+  padding: 0;
+  margin: 15vw; }
+  /* line 35, ../sass/gallerySection.scss */
+  .Piece .info {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    width: 45%;
+    height: auto;
+    float: left;
+    background-color: rgba(10, 10, 10, 0.6); }
+    /* line 49, ../sass/gallerySection.scss */
+    .Piece .info h1 {
+      text-align: center;
+      padding: 3px;
+      margin: 0;
+      font-size: 1.5vw;
+      width: auto;
+      height: auto; }
+    /* line 62, ../sass/gallerySection.scss */
+    .Piece .info h2 {
+      font-size: 1vw;
+      padding: inherit;
+      margin-left: 20%;
+      width: auto;
+      height: auto; }
+    /* line 73, ../sass/gallerySection.scss */
+    .Piece .info p {
+      font-size: 1vw;
+      width: 95%;
+      margin-left: 1vw;
+      padding: 10px;
+      text-align: left; }
+  /* line 87, ../sass/gallerySection.scss */
+  .Piece .sourceFile {
+    width: 55%;
+    background-color: rgba(100, 100, 100, 0.25); }
+  /* line 94, ../sass/gallerySection.scss */
+  .Piece .sourceFilePort {
+    display: inline-block;
+    width: 40%;
+    position: relative;
+    background-color: rgba(100, 100, 100, 0.25); }
+
+/*# sourceMappingURL=gallerySection.css.map */

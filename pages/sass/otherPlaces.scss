@@ -1,0 +1,38 @@
+html
+{
+    background : rgb(20,20,20);
+    color      :         white;
+    
+    font-family: 'Open Sans', sans-serif;
+}
+
+.linkList 
+{
+    margin    : auto;
+    margin-top:  10%;
+    
+    li
+    {
+        display: block; 
+    
+        text-align     : center;
+        text-decoration: none  ;
+    
+        padding:  1vw;
+    }
+    
+    #deviantart
+    {
+	    width: 10vw;
+    }
+    
+    #github
+    {
+	    width: 10vw;
+    }
+    
+    #twitch
+    {
+	    width: 10%;
+    }
+}

@@ -1,0 +1,125 @@
+html
+{
+    font-family: 'Open Sans', sans-serif;
+    background : rgb(20,20,20)                          ;
+    
+    color: white;
+}
+
+.helpBar
+{
+    background-color: rgb(40, 40, 40);
+    
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#9e0061+1,2b0018+27,210018+57,3f0a29+86,600047+100 */
+    background: #9e0061; /* Old browsers */
+    background: -moz-linear-gradient(top, #9e0061 1%, #2b0018 27%, #210018 57%, #3f0a29 86%, #600047 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #9e0061 1%,#2b0018 27%,#210018 57%,#3f0a29 86%,#600047 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #9e0061 1%,#2b0018 27%,#210018 57%,#3f0a29 86%,#600047 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9e0061', endColorstr='#600047',GradientType=0 ); /* IE6-9 */
+    
+    height: 0;
+    
+    overflow: hidden;
+    
+     h1
+    {
+        color: white;
+    
+        font-size: calc(7pt + 0.3vw);
+    
+        text-align: center;
+    
+        vertical-align: middle;
+    }
+}
+
+.help
+{
+    position: fixed;
+    bottom  :    40;
+    right   :     0;
+    
+    width: 30vw;
+    
+    img
+    {
+        opacity: 0;
+    
+        display: block;
+    }
+}
+
+#home
+{
+    background-color: rgb(30, 30, 30);
+    
+    border-style:             solid;
+    border-color: rgb(240 ,170 ,35);
+    
+    
+    margin-top  : 10vw;
+    margin-left: 30%;
+    margin-right: 30%;
+    
+    width: 35%;
+    
+    positon: center;
+}
+
+#mainNotif
+{
+    font-size: 15;
+    font-size: calc(8pt + 0.3vw);
+    
+    padding: 1vw;
+    
+    text-align: center;
+}
+
+#info
+{
+    font-size: calc(6pt + 0.3vw);
+    
+    padding: 1vw;
+    
+    text-align: center;
+}
+
+.frame
+{
+    list-style-type: none;
+    
+    display: block;
+    
+    width: 100%;
+    top  :    0;
+    
+    height: auto;
+    
+    margin: 0;
+    padding: 0;
+    
+    h1
+    {
+        list-style-type: none;
+    
+        margin: 0;
+    
+        font-size: 12px;
+    }
+}
+
+.frame 
+{
+    margin : 0;
+    padding: 0;
+    
+    height: 24vw;
+    width :  50%;
+}
+
+.galleryFeature 
+{
+    width :  30%;	
+    height: 30vw;
+}
