@@ -61,25 +61,29 @@ html {
     display: block;
     width: 32vw;
     height: 18vw;
-    margin-left: 28%; }
+    margin-left: 26%; }
+  /* line 86, ../sass/blog.scss */
+  .entry #github {
+    margin-left: 42%;
+    width: 10vw; }
 
-/* line 87, ../sass/blog.scss */
+/* line 96, ../sass/blog.scss */
 #before {
   margin-left: 23%; }
 
-/* line 90, ../sass/blog.scss */
+/* line 99, ../sass/blog.scss */
 #imgDesc {
   margin-left: 35%; }
 
-/* line 93, ../sass/blog.scss */
+/* line 102, ../sass/blog.scss */
 #foxBefore {
   width: 20vw; }
 
-/* line 94, ../sass/blog.scss */
+/* line 103, ../sass/blog.scss */
 #foxAfter {
   width: 19.76vw; }
 
-/* line 96, ../sass/blog.scss */
+/* line 105, ../sass/blog.scss */
 .imgFox {
   display: inline-block;
   margin: 0;

@@ -17,12 +17,63 @@
     <body>
     
         <div class="entry" id="3">
+            <h1>Spark Dev: IWVR</h1>
+            
+            <h2>December 3nd, 2017</h2>
+            
+            <p>
+                Back in September 5th, 2017, the final rosters for a new program from Startup FIU called Spark Dev had been given out via email. It was the pilot semester and wouldm run for 9 weeks. In it teams would work on projects with the focus being to learn from it them instead of making a finished product. I had signed up the last day of registration in hopes of getting in. There were four divisons to choose from: Artifical Intelligence, Simulation, Virutal Reality, and Web Development. I had signed up for the VR group and on the results of the roster my name was shown. The follow up email gave us the project conecpt we would be working on. A infinite virtual whiteboard. The project's source code will be hosted on github throughtout the entire program and will be avalible open-source to everyone. After the first general meeting we went on to figure out meeting schedules and settled at the beginning to do it every Friday.
+            </p>
+                
+            <p>
+                First few weeks were just getting things settled, going over concepts for features we would want, and getting the some sort of struture down for the program. Back then we were divided into four groups: Programming, Modeling, Networking, and UI. Then got the github going before hurricane Irma came along and delayed things. Then I got the first unity started and a week after started we started to work on getting something started in scene. First thing was to get the line to draw on the board.
+            </p>
+            
+            <iframe
+            frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen alt="9/28 IWVR Dev Log" src="https://www.youtube.com/embed/wPrtI8_s12w?t=18750">
+            </iframe>
+            
+            <p>
+                We were able to get the line to draw 2D on the board, and got an inital panning locomotion to work so the user could move around the board. The color was stuck to a pinkish purple due to not being able to set color properly. Initally the controller itself was used to draw the line. Next we dropped panning and worked with a smaller board and started to add teleporting. This allowed the user could move around the space, once the locomotion was in place we started to give the board proper collisions and creating the marker to draw with instead of the controller. The marker collison gave us quite a bit of trouble initally due to us using a kinematic approach to collision, that was within the hand script provided by steam vr. We were able to get it to work, however we had more trouble when the board was not in perfect orientation. When the marker attempted to draw the position of the line renders were all over the place and deformed. Through trial and error we were able to find the proper constants for the line render scaling and the proper transform space they should position with along with the rotational tranformations that needed to be done so that the render was perfect no matter what the boards orientation was. This was are second most time consuming problem.
+            </p>
+
+            <p>
+                Next was getting board and marker to have proper physics, and allowing the creation of boards. For the most part this went pretty smoothly except with keeping the board still when the marker hit it. We fixed this tempoarily by using fixed joints but the are not a viable solution since it can become a performance killer if boards have bad interactions. Last few things were getting the eraser to work along with color and size selection for the marker and board resizing. The The eraser gave us quite a bit of trouble when it came to detecting collsion with the lines. Trying to give them unity's line renders did not work. What we settled with was so that every vertex of the line after rendering getting a small box collider. Color and Marker size were implemented with minor difficulty. Board resizing was thrown in with relative ease however its implementation was poor and is slightly difficult for the user to use the resize controls.
+            </p>
+            
+            <iframe  frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen alt="10/8 IWVR Dev Log"
+            src="https://www.youtube.com/embed/_76nd7IyQ8E" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen>
+            </iframe>
+            
+            <p>
+                In the end we ended up with fully functional board, marker, and eraser with abiity to create and resize boards, along with marker color and size customization. We unfortunately could not get the netowrking side implemented for cooperation as we had last half our team by the end of the program and had to allocate to much time to getting Unity's physics and collision to work properly with our VR interactions. In the future we plan to port the project over to Unreal Engine and continue from where we left on in the comming semester with the second iteration of Spark Dev.
+            </p>
+            
+            <a href="https://github.com/Ed94" target="_blank">
+                <img id="github" alt="GitHub Link" src="img/GitHub_Logo%20-%20Black.png">
+            </a>
+            
+            <iframe src='https://clips.twitch.tv/embed?clip=WealthyExpensiveBobaYouDontSay&autoplay=false' frameborder='0' scrolling='no' allowfullscreen='true'></iframe>
+            
+        </div>
+        
+        <div class="entry" id="4">
+            <h1>VR Club: The First Game Day and Workshop</h1>
+            
+            <h2>November 17th, 2017</h2>
+            
+            <p>
+                
+            </p>
+        </div>
+    
+        <div class="entry" id="3">
             <h1>Melee Remastered Top 8 Complete Released!</h1>
             
             <h2>July 29th, 2017</h2>
             
             <p>
-                I first got into the smash scene through a modification of Super Smash Bros. Brawl called Project M. Which made it more like its previous interation Super Smash Bros. Melee. The game features a major rebalance to the cast. Along with adding back in a bunch of the mechanical features that made melee the competitive fast pace technical frenzy. Which continues to be played as an esport to this day. Project M had a great modding scene, and I decided to use the Post-Processing capabilites of a custom distribution of Dolphin called Ishiiruka to configure my own shader for the game. The shader was suprisingly well recieved by the community as well.
+                I first got into the smash scene through a modification of Super Smash Bros. Brawl called Project M. The mods purpose was to make brawl like its previous interation: Super Smash Bros. Melee. The game features a major rebalance to the cast; along with adding back a bunch of the mechanical features that made melee the competitive fast pace technical frenzy, which continues to be played as an esport to this day. Project M had a great modding scene, and I decided to use the Post-Processing capabilites of a custom distribution of Dolphin, called Ishiiruka, to configure my own shader for the game.
                 <a href="https://www.reddit.com/r/SSBPM/comments/3ocl6m/i_made_a_shader_for_pm/" target="_blank">
                 The shader was suprisingly well recieved by the community as well.
                 </a> 
@@ -35,7 +86,7 @@
             <p>
                 While Project M dwindled in popularity from legal hurdles, Melee is still strong and enjoy's a thriving community, I've also grown to like its feel over Project M, so I started to mod it and play it more. The first thing I did was get the 20XX hackpack and attempted to make a shader for Melee as well. Ishiiruka-Dolphin was able to add Tone Mapping, SSAO, SSGI, Bloom, Pixel Vibrance, Phong Lighting, Auto-Generated Bump maps, and more without completely destorying the peformance of something that was already trying to emulate the hardware of the gamecube. <br/><br/>
                 
-                The result of the shader was alright, but seemed over done and the characters looked to washed out.  The reason was to try to fix the incorrect colors on many characters. The color balance on many textures was incorrect amont other things, leading me to over compensate for it in the shader. So I tried my hand at correcting the textures for the most popular character in the game, Fox. Many of his textures for his clothing needed to be color corrected such as his jacket which was tinted greenish beige, his fur was also over saturated with yellow. With the color correction I also did small touch ups, and redid the tone curve for each texture. Due to the amount of textures involved along with creating custom Character portraits and corrected stock icons, to finish the character in all his skins took around 5 hours(Longest since it was the first). The result of it was unbelivable. The character looked much cleaner and fresh; similar to a restoration of a vintage vehicle, without the use of any shaders. 
+                The result of the shader was alright, but seemed over done and the characters looked to washed out.  The reason was to try to fix the incorrect colors on many characters. The color balance on many textures was incorrect as well as other things, leading me to over compensate for it in the shader. So I tried my hand at correcting the textures for the most popular character in the game, Fox. Many of his textures for his clothing needed to be color corrected such as his jacket which was tinted greenish beige, his fur was also over saturated with yellow. With the color correction I also did small touch ups, and redid the tone curve for each texture. Due to the amount of textures involved along with creating custom Character portraits and corrected stock icons, to finish the character in all his skins took around 5 hours(Longest since it was the first). The result of it was unbelivable. The character looked much cleaner and fresh; similar to a restoration of a vintage vehicle, without the use of any shaders. 
             </p>
             
             <div class="imgFox" id="before">
@@ -51,7 +102,7 @@
             </div>
             
             <p>
-                With the satifsying result motivating me, I decided to continue to remaster various textures. The was named Melee Remastered and so far focused on improving the shader and textures of the game. Curernt focus was on getting the characters and legal stages for competitive play done. The characters were done in order of the 2015 tier list. After over a year, the first major release of this project has been released as "Top 8 Complete". The characters completed are Fox, Falco, Marth,  Shiek, Jigglypuff, Peach, Captain Falcon, and Ice Climbers. To be complete, all their skins needed to be finished, along with new Character Select Portraits for the selection menu, and remastered stock icons. As for the stages, they have had all their textures done, however I have plans in the future to adjust the stage lighting in the future without using shader by hacking the file. The shader is also completey different with the lastest version looking almost as good(if not better) than the one I originally made for Project M.
+                With the satifsying result motivating me, I decided to continue to remastering various textures. The project was named Melee Remastered and so far focused on improving the shader and textures of the game. Curernt focus was on getting the characters and legal stages for competitive play done. The characters were done in order of the 2015 tier list, and after over a year, the first major release of this project has been released as "Top 8 Complete". The characters completed are Fox, Falco, Marth,  Shiek, Jigglypuff, Peach, Captain Falcon, and Ice Climbers. To be complete, all their skins needed to be finished, along with new Character Select Portraits for the selection menu, and remastered stock icons. As for the stages, they have had all their textures done, however I have plans in the future to adjust the stage lighting without using shader by hacking the file. The shader is also completey different with the lastest version looking almost as good(if not better) than the one I originally made for Project M.
             </p>
             
             <iframe 
@@ -59,7 +110,7 @@
             </iframe>
             
             <p>
-                Since the lastest release, the project has garnered a positive reponse along with plenty of feedback. I was suprised just how much you can learn from somthing like a modding project past just using an image editor and processs to adjust texture. My original intent with this project was to become proficient in Photoshop and Gimp. However doing this project allowed me to further improve my ability to stream and record with Open Broadcaster Studio, furthered me into the world of color calibrating displays, using batch files in windows, and some PowerPC assembly. Plus it gave me and a better understanding of marketing something properly, obtaining feedback, and properly managing such a thing. Its suprising how much is involved with just producing a mod for a game. To an extent, it can be almost as much work as making one. <br></br>
+                Since the lastest release, the project has garnered a positive reponse along with plenty of feedback. I was suprised just how much you can learn from somthing like a modding project past just using an image editor and processs to adjust texture. My original intent with this project was to become proficient in Photoshop and Gimp. However doing this project allowed me to further improve my ability to stream and record with Open Broadcaster Studio, furthering me into the world of color calibrating displays, using batch files in windows, and some PowerPC assembly. Plus it gave me and a better understanding of marketing something properly, obtaining feedback, and properly managing such a thing. Its suprising how much is involved with just producing such a mod for a game. To an extent, it can be almost as much work as making one. <br></br>
                 
                 Knowing that those in the community want to see more, I will continue the project at least until all the characters are completed, and the stage lighting has been adjusted.
             </p>
@@ -89,9 +140,9 @@
             <p>
             Went to my first hackathon. It was similar to the Global Game Jam. We were given roughly 60 hours to make something. This was probably the best thing that happend in my spring semester at FIU. There was a bunch of energy, activity, and plenty of people to meet and have fun with.<br/><br/>
             
-            Since I had never gone to one of these before I brough evertyhing I had that would be useful, this included, my laptop, desktop, a bunch of gamepads, the destkop, bluetooth speaker, headphones, and an HTC Vive. At the entrance most of the sponsors had booths and discussed with us with State Farm asking us to fill out a survey, and IBM was giving out a Rasphberry PI 3. I picked one of those up quickly as the supply was going to run dry soon.<br/><br/>
+            Since I had never gone to one of these before I brought evertyhing I had that would be useful, this included, my laptop, desktop, a bunch of gamepads, bluetooth speaker, headphones, and an HTC Vive. At the entrance most of the sponsors had booths and discussed with us. State Farm asked us to fill out a survey, and IBM was giving out a Rasphberry PI 3. I picked one of those up quickly as the supply was going to run dry soon.<br/><br/>
             
-            After registering myself, I went to look at the space the hackathon had reserved. It was essentially the entire first floor of PG6 at FIU. The louge area kept its same purpose, while the rest of the lecture rooms were used as spaces for formed teams to work on their individual projects. The only exception being the small lecture room used as a quiet area and some of the computer labs used for workshops they would have throughout the hackathon. After around 20 minutes I found three people looking for a group and was able to team up with them. We then setup in 112 as it had the most empty space and we would need it for VR.<br/><br/>
+            After registering myself, I went to look at the space the hackathon had reserved. It was essentially the entire first floor of PG6 at FIU. The louge area kept its same purpose, while the rest of the lecture rooms were used as spaces for formed teams to work on their individual projects. The only exception being the small lecture room used as a quiet area and some of the computer labs used for workshops they would have throughout the hackathon. After around 20 minutes I found three people looking for a group and was able to team up with them. We then setup in room 112 as it had the most empty space and we would need it for VR.<br/><br/>
                 
             After the opening ceremony, we went on to brainstorm what we were going to do with VR. Initial plans were to spew out fractals from the vive's controllers be soon realized the fractals formula's may be to complex for the amount of time we had. Then we decided to do a sort of shooting gallery with the player and enemies flying around in space. From there we devised our roles on the project. I was in charge of figuring out a proper way of doing locomotion to fly through space. while retianing control. We unanimously decided to use unity to work on VR, as we were exposed to it earlier at the Unity workshop from UPE and it was easy to implement VR with. <br/><br/>
                 
