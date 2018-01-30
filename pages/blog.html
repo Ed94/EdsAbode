@@ -13,7 +13,6 @@
         <title>Blog</title>
     </head>
         
-        
     <body>
     
         <div class="entry" id="5">
@@ -22,10 +21,8 @@
             <h2>December 3nd, 2017</h2>
             
             <p>
-                Back in September 5th, 2017, the final rosters for a new program from Startup FIU called Spark Dev had been given out via email. It was the pilot semester and wouldm run for 9 weeks. In it teams would work on projects with the focus being to learn from it them instead of making a finished product. I had signed up the last day of registration in hopes of getting in. There were four divisons to choose from: Artifical Intelligence, Simulation, Virutal Reality, and Web Development. I had signed up for the VR group and on the results of the roster my name was shown. The follow up email gave us the project conecpt we would be working on. A infinite virtual whiteboard. The project's source code will be hosted on github throughtout the entire program and will be avalible open-source to everyone. After the first general meeting we went on to figure out meeting schedules and settled at the beginning to do it every Friday.
-            </p>
+                Back in September 5th, 2017, the final rosters for a new program from Startup FIU called Spark Dev had been given out via email. It was the pilot semester and wouldm run for 9 weeks. In it teams would work on projects with the focus being to learn from it them instead of making a finished product. I had signed up the last day of registration in hopes of getting in. There were four divisons to choose from: Artifical Intelligence, Simulation, Virutal Reality, and Web Development. I had signed up for the VR group and on the results of the roster my name was shown. The follow up email gave us the project conecpt we would be working on. A infinite virtual whiteboard. The project's source code will be hosted on github throughtout the entire program and will be avalible open-source to everyone. After the first general meeting we went on to figure out meeting schedules and settled at the beginning to do it every Friday.<br/><br/>
                 
-            <p>
                 First few weeks were just getting things settled, going over concepts for features we would want, and getting the some sort of struture down for the program. Back then we were divided into four groups: Programming, Modeling, Networking, and UI. Then got the github going before hurricane Irma came along and delayed things. Then I got the first unity started and a week after started we started to work on getting something started in scene. First thing was to get the line to draw on the board.
             </p>
             
@@ -34,10 +31,8 @@
             </iframe>
             
             <p>
-                We were able to get the line to draw 2D on the board, and got an inital panning locomotion to work so the user could move around the board. The color was stuck to a pinkish purple due to not being able to set color properly. Initally the controller itself was used to draw the line. Next we dropped panning and worked with a smaller board and started to add teleporting. This allowed the user could move around the space, once the locomotion was in place we started to give the board proper collisions and creating the marker to draw with instead of the controller. The marker collison gave us quite a bit of trouble initally due to us using a kinematic approach to collision, that was within the hand script provided by steam vr. We were able to get it to work, however we had more trouble when the board was not in perfect orientation. When the marker attempted to draw the position of the line renders were all over the place and deformed. Through trial and error we were able to find the proper constants for the line render scaling and the proper transform space they should position with along with the rotational tranformations that needed to be done so that the render was perfect no matter what the boards orientation was. This was are second most time consuming problem.
-            </p>
+                We were able to get the line to draw 2D on the board, and got an inital panning locomotion to work so the user could move around the board. The color was stuck to a pinkish purple due to not being able to set color properly. Initally the controller itself was used to draw the line. Next we dropped panning and worked with a smaller board and started to add teleporting. This allowed the user could move around the space, once the locomotion was in place we started to give the board proper collisions and creating the marker to draw with instead of the controller. The marker collison gave us quite a bit of trouble initally due to us using a kinematic approach to collision, that was within the hand script provided by steam vr. We were able to get it to work, however we had more trouble when the board was not in perfect orientation. When the marker attempted to draw the position of the line renders were all over the place and deformed. Through trial and error we were able to find the proper constants for the line render scaling and the proper transform space they should position with along with the rotational tranformations that needed to be done so that the render was perfect no matter what the boards orientation was. This was are second most time consuming problem.<br/><br/>
 
-            <p>
                 Next was getting board and marker to have proper physics, and allowing the creation of boards. For the most part this went pretty smoothly except with keeping the board still when the marker hit it. We fixed this tempoarily by using fixed joints but the are not a viable solution since it can become a performance killer if boards have bad interactions. Last few things were getting the eraser to work along with color and size selection for the marker and board resizing. The The eraser gave us quite a bit of trouble when it came to detecting collsion with the lines. Trying to give them unity's line renders did not work. What we settled with was so that every vertex of the line after rendering getting a small box collider. Color and Marker size were implemented with minor difficulty. Board resizing was thrown in with relative ease however its implementation was poor and is slightly difficult for the user to use the resize controls.
             </p>
             
@@ -50,7 +45,7 @@
             </p>
             
             <a href="https://github.com/Ed94" target="_blank">
-                <img id="github" alt="GitHub Link" src="img/GitHub_Logo%20-%20Black.png">
+                <img id="github" alt="GitHub Link" src="img/GitHub_Logo%20-%20Copy.png">
             </a>
             
             <iframe src='https://clips.twitch.tv/embed?clip=WealthyExpensiveBobaYouDontSay&autoplay=false' frameborder='0' scrolling='no' allowfullscreen='true'></iframe>
@@ -58,12 +53,18 @@
         </div>
         
         <div class="entry" id="4">
-            <h1>VR Club: The First Game Day and Workshop</h1>
+            <h1>Immersive Tech Club (FIU): The First Game Day and Workshop</h1>
             
             <h2>November 17th, 2017</h2>
             
             <p>
+                Yesterday the Immersive Tech Club held their first Virtual Reality Workshop in coollaboration with WICS(Women in Computer Science). The workshop consisted of going over how to use Unity and the SteamVR plugin to create VR content. Specifically what are the core items used in a Unity scene, and how to create various interactions possible with SteamVR with various objects. This was done by first making sure everyone had Unity and SteamVR installed. Then those attending downloaded a prestructured project from a github repo we had prepared beforehand to follow on with during the workshop. The project essentially had a preset scene with objects that would have all the SteamVR related prefabs and components needed. These resources would then be addeed and configured to the scene as the workshop went over all its material.<br/><br/>
                 
+                The workshop was a great sucess, we had more attendees than there were seats in the room. The majority were able to follow along and understand the material. We has a select few who had trouble getting 2D debug to work, this had to do with conflict with SteamVR not being able to detect a headset. Normally when this occurs its supposed to startup 2D debug in unity however in this case it still attempted to run the Unity scene instance with the headset. 2D debug essentially allows you to interact in the scene with what are called fallback objects in the same way anyone would if there was an actual headset. Without it nothing added to the scene could be tested without an actual headest. Unfortunately for those we were not able to solve the issue until nearly after the workshop was over. But we were able to at least give them a quick summary of it after.<br/><br/>
+                
+                The next day was the club's first self hosted event: The VR Game Day. Room 116 of PG6 was reserved from 7 to 10pm. There was 4 VR stations present, each had a different set of games. Mine was the racing simulation, Hazar's: shooting and archery, Adam's Flying and space simulations, and Ciana's Playstation VR.  While everyone waited for their time on a VR setup, there are raspberry pi setups with a set of games from a specifed console. These included the nintendo 64, super nintendo, and sega genesis. We also had rocket leauge and a nintendo switch. To help with the atmosphere we had music from spotify playing the background. The event was a sucess, people really got into every setup and enjoyed them. A good percentage of those trying out every setup had never used VR and it was great to watch their reactions. Our side games kept people busy if they were not watching others in VR however the raspherry Pi's did not seem to get as much attention. Most likely from the fact that the super nintendo setup seemed far from where everyone tended to gather and that some had not had thier peripherals properly setup. This was negligable as the main focus was the upkeep of the four VR stations.<br/><br/>
+                
+                Overall the events were a great opening to the founding of the Immersive tech club, and really started to those that participated exposed the world of VR. I had a ton of fun hosting the racing station and hope to do it again some time in the future.
             </p>
         </div>
     
@@ -116,7 +117,6 @@
             </p>
             
         </div>
-    
     
         <div class="entry" id="3">
             <h1>First Post...</h1>

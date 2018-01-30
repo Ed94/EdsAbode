@@ -18,7 +18,7 @@ html {
   opacity: 0.75;
   padding: 5.4vw;
   position: relative;
-  max-width: 25%;
+  max-width: 27vw;
   max-height: 1.5vw;
   transition-timing-function: ease-in-out;
   transition-duration: 0.4s; }
@@ -65,6 +65,23 @@ html {
   background-size: 120%; }
 
 /* line 98, ../sass/projects.scss */
+.projectClose#PnM {
+  background-image: url("/pages/img/PointNMovePic.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 110%; }
+  /* line 106, ../sass/projects.scss */
+  .projectClose#PnM h1 {
+    color: black; }
+
+/* line 112, ../sass/projects.scss */
+.projectClose#IWVR {
+  background-image: url("/pages/img/IWVR_PicClose.png");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 110%; }
+
+/* line 121, ../sass/projects.scss */
 .projectOpen {
   cursor: pointer;
   background-color: black;
@@ -81,7 +98,7 @@ html {
   transition-timing-function: ease-in-out;
   transition-duration: 0.4s;
   z-index: 10; }
-  /* line 126, ../sass/projects.scss */
+  /* line 149, ../sass/projects.scss */
   .projectOpen h1 {
     font-size: calc(8pt + 1vw);
     color: gainsboro;
@@ -91,12 +108,12 @@ html {
     text-rendering: optimizeLegibility;
     transition-timing-function: ease-in-out;
     transition-duration: 0.8s; }
-  /* line 143, ../sass/projects.scss */
+  /* line 166, ../sass/projects.scss */
   .projectOpen img {
     opacity: 1;
     transition-timing-function: ease-in-out;
     transition-duration: 0.4s; }
-  /* line 151, ../sass/projects.scss */
+  /* line 174, ../sass/projects.scss */
   .projectOpen p {
     opacity: 1;
     margin-right: 35vw;
@@ -104,7 +121,7 @@ html {
     transition-timing-function: ease-in-out;
     transition-duration: 0.6s; }
 
-/* line 163, ../sass/projects.scss */
+/* line 186, ../sass/projects.scss */
 .projectOpen#abstractRealm {
   background-color: black;
   background-image: url("/pages/img/arBKeffected.png");
@@ -114,10 +131,28 @@ html {
   transition-timing-function: ease-in-out;
   transition-duration: 0.4s; }
 
-/* line 177, ../sass/projects.scss */
+/* line 200, ../sass/projects.scss */
 .projectOpen#mRemaster {
   background-image: url("/pages/img/MRemasterBk.png");
   background-position: 115%;
+  background-repeat: no-repeat;
+  background-size: 50%;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.4s; }
+
+/* line 212, ../sass/projects.scss */
+.projectOpen#PnM {
+  background-image: url("/pages/img/PointNMovePic.jpg");
+  background-position: 108%;
+  background-repeat: no-repeat;
+  background-size: 50%;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.4s; }
+
+/* line 224, ../sass/projects.scss */
+.projectOpen#IWVR {
+  background-image: url("/pages/img/IWVRPic.png");
+  background-position: 105%;
   background-repeat: no-repeat;
   background-size: 50%;
   transition-timing-function: ease-in-out;

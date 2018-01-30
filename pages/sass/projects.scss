@@ -27,7 +27,7 @@ html
     
     position: relative;
     
-    max-width: 25%;
+    max-width: 27vw;
     max-height: 1.5vw;
     
     transition-timing-function: ease-in-out;
@@ -95,6 +95,29 @@ html
     background-size    :      120%;
 }
 
+.projectClose#PnM
+{
+	background-image: url('/pages/img/PointNMovePic.jpg');
+    
+    background-position: top;
+    background-repeat  : no-repeat;
+    background-size    :  110%;
+    
+    h1
+    {
+        color: black;
+    }
+}
+
+.projectClose#IWVR
+{
+	background-image: url('/pages/img/IWVR_PicClose.png');
+    
+    background-position: top;
+    background-repeat  : no-repeat;
+    background-size    :  110%;
+}
+
 .projectOpen
 {
     cursor         : pointer;
@@ -128,7 +151,7 @@ html
         font-size: calc(8pt + 1vw);
     
         color: rgb(220, 220, 220);
-    
+     
         position: relative;
     
         left: 3vw;
@@ -179,6 +202,30 @@ html
     background-image: url('/pages/img/MRemasterBk.png');
     
     background-position:       115%;
+    background-repeat  :  no-repeat;
+    background-size    :        50%;
+    
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.4s;
+}
+
+.projectOpen#PnM
+{
+	background-image: url('/pages/img/PointNMovePic.jpg');
+    
+    background-position:       108%;
+    background-repeat  :  no-repeat;
+    background-size    :        50%;
+    
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.4s;
+}
+
+.projectOpen#IWVR
+{
+	background-image: url('/pages/img/IWVRPic.png');
+    
+    background-position:       105%;
     background-repeat  :  no-repeat;
     background-size    :        50%;
     

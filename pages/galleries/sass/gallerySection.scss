@@ -30,7 +30,11 @@ body
     
     padding: 0;
     
-    margin: 15vw;
+    margin: 9vw;
+    
+    margin-bottom: 4vw;
+    
+    width: 82%;
     
     .info
     {
@@ -63,8 +67,8 @@ body
         {
             font-size: 1vw;
     
-            padding: inherit;
-            margin-left: 20%;
+            padding    : inherit;
+            margin-left:     20%;
     
             width : auto;
             height: auto;
@@ -74,7 +78,7 @@ body
         {
             font-size: 1vw;
     
-            width: 95%;;
+            width: 95%;
     
             margin-left: 1vw;
     
@@ -82,6 +86,31 @@ body
     
             text-align: left;
         }
+        
+        #link
+        {
+            font-size: 1vw;
+    
+            width: 95%;
+    
+            margin-left: 1vw;
+    
+            padding: 10px;
+    
+            text-align: left;
+            
+            img
+            {
+                width: 25px;
+            }
+        }
+    }
+    
+    .sourceVideo
+    {
+        height: 25vw;
+        
+        width: 44.5vw;
     }
     
     .sourceFile 
