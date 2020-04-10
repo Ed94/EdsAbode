@@ -1,0 +1,7 @@
+version: "3.2"
+
+services:
+  edsdigitalabode:
+    image: eds/digitalabode
+    ports:
+    - 1994:80
