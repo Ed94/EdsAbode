@@ -1,5 +1,5 @@
 ---
-title: projects
+title: Projects
 date: 2020-04-09 22:19:27
 ---
 
@@ -112,7 +112,7 @@ I have the utilities library publicly on [github](https://github.com/Ed94/NE_Uti
 
 Virtual Reality Interaction Mechanic for Unreal.
 
-Currently on hiatus.
+(On Hiatus)
 
 ## Trial By Fire
 
