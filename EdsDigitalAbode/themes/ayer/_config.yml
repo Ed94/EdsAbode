@@ -13,24 +13,24 @@ menu:
 # https://github.com/mattboldt/typed.js
 subtitle:
   enable: true  # 是否开启动效
-  text: Welcome to my digital abode.
+  text: An iota of the internet...
  # text2: 
   #text3: Have fun!  #Supports up to three lines of text
   startDelay: 0   # 延迟时间
-  typeSpeed: 200  # 打字速度
+  typeSpeed: 90  # 打字速度
   loop: true  # 是否循环
-  backSpeed: 100  # 回退速度
+  backSpeed: 80  # 回退速度
   showCursor: true  # 是否显示光标
 
 favicon: /favicon.ico
-logo: /images/ayer-side.svg
+logo: /images/justScroll.gif
 
 # 封面配置
 # enable-是否启用封面；path-封面背景图；logo-封面logo
 cover:
   enable: true
-  path: /images/cover1.jpg  # there are some beautiful cover images in Ayer's directory: /source/images, choose your favorite image to replace it.
-  logo: /images/ayer.svg
+  path: /images/coolTv2.gif  # there are some beautiful cover images in Ayer's directory: /source/images, choose your favorite image to replace it.
+  # logo: /images/coolThing.gif
 
 # 页面顶部进度条  
 progressBar: true

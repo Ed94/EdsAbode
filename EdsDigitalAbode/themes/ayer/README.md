@@ -88,14 +88,14 @@ subtitle:
 
 # Favicon and sidebar logo
 favicon: /favicon.ico
-logo: /images/ayer-side.svg
+logo: /images/logo.png
 
 # Cover Setting 
 # enable: [true|false]；path: [background-image]；logo: [cover-logo-image]
 cover:
   enable: true
   path: /images/cover1.jpg  # there are some beautiful cover images in Ayer's directory: /source/images, choose your favorite image to replace it.
-  logo: /images/ayer.svg
+  logo: /images/logo.png
 
 # ProgressBar  
 progressBar: true
