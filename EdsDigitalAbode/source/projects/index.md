@@ -28,13 +28,13 @@ We fully scoped and drafted the tasks for the R & D based on what our client wan
 
 (Private)
 
-This is a incident command simulated developed by the ICAVE lab at FIU for the Department of Emergency Management (FIU). It allows a "hands off" immersive expereince using the ICAVE itself  while also using the head-node's monitor array to engage up to 8 Firefighters in the experience. An instructor controls the simulation using an iPad communicating via a rest server to the Fire360 instance running on the ICAVE head node. 
+This is a incident command simulated developed by the ICAVE lab at FIU for the Department of Emergency Management (FIU). It allows a "hands off" immersive expereince using the ICAVE itself, while also using the head-node's monitor array to engage up to 8 Firefighters in the experience. An instructor controls the simulation using an iPad communicating via a rest server to the Fire360 instance running on the ICAVE head node. 
 
 Unlike other firefighters simulators you see online, this was built from the ground up based on immediate feedback from departments chiefs in south florida and those instructing firefighter training at FIU. This lead to a less of a hands on expereince and it becoming more directed toward praticing proper protcol on one the scenes developed.
 
 The project was built using Mechdyne's getReal3D api and plugin for Unity 2017. The code for the simulation is entirely C#, and the iPad web app is written using C# as well with the Blazor framework.
 
-Version 1 was a rapidly developed prototype initially made by Fernando, Haczar, and Leo (ICAVE lab developers) before I had arrived at the ICAVE.Currently version 2 has been in development since I was hired to the ICAVE back in May and will be releasing most likely around Fall 2020. I was tasked with helping develop the simulation itself along with Haczar (co-worker). I ended up designing and implementing the majority of the simulation on the Unity side of things as well as polishing the lighting for release. The components of the simulation were design to be fully modular and scalable as with V2 it was intended to be used to make multiple scenarios rapdily once the first scenario was ready for release.
+Version 1 was a rapidly developed prototype initially made by Fernando, Haczar, and Leo (ICAVE lab developers) before I had arrived at the ICAVE.Currently version 2 has been in development since I was hired to the ICAVE back in May 2018 and will be releasing most likely around Fall 2020. I was tasked with helping develop the simulation itself along with Haczar (co-worker). I ended up designing and implementing the majority of the simulation on the Unity side of things as well as polishing the lighting for release. The components of the simulation were design to be fully modular and scalable as with V2 it was intended to be used to make multiple scenarios rapdily once the first scenario was ready for release.
 
 <img src="https://i.imgur.com/hD0Os4k.png" width="500">
 <img src="https://i.imgur.com/VA9qigf.png" width="500">
@@ -59,7 +59,7 @@ We provided an implementation made in Unreal 4.23, that supported both lan and u
 
 ## Classes
 
-### **DucktapedGL**
+### **DuctTapedGL**
 
 *CAP4710 - Principles of Computer Graphics* - Spring 2020
 
@@ -69,11 +69,15 @@ This is a wrapping library I made for OpenGL, GLFW, and GLM for the purpose of l
 
 At first I did it in my non-standard C++ using my cpp alias and later translated and continued to work on it in standard c++ 17. I also made a nice little action queue for inputs to learn some advanced template for generating and handling delegates of arbitrary functions.
 
+<img src="https://i.imgur.com/v3rBHOW.gif" width="500">
+
 ## Spark Dev
 
 ### **Infinite Whiteboard**
 
 *September 2017 - December 2017*
+
+[Github](https://github.com/eds-archived-projects/InfiniteWBVR)
 
 The pilot semester for spark dev, a program at FIU that allows students to work on a team without the risk of failure impacting their performance during their degree. The VR division decided to complete a multiplayer concept of collaboration space that had scalable whiteboards.\
 
@@ -85,9 +89,11 @@ The project was done in Unity in 9 weeks. It was my first major project using a 
 
 *Janurary 2018 - April 2028*
 
+[Github](https://github.com/eds-archived-projects/VR_MultiPlayerShootout)
+
 First project in Unreal Engine, used the multiplayer template provided via the unreal learn's gameplay concepts section. We attempted to port the template to VR perserving the multiplayer functionality. Unfortunately due to constraints we ended up instead making a shooting gallery with the assets during the demo presentation.
 
-{% youtuber video 3AeqlYjyWxk  %}
+{% youtuber video r8wUAzsmNuI  %}
 {% endyoutuber %}
 
 # <div align="center"> Personal

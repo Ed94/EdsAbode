@@ -7,7 +7,7 @@ Software Designer, Developer
 
 Edward Richard Gonzalez
 
-[Resume](https://drive.google.com/file/d/1sULVoHdZfQij2yQXn_G_H97b-SGbPcs5/view?usp=sharing)
+[Resume](https://drive.google.com/open?id=1Nc1Kme7UQu-VRu-UGOnzEY5kjiH2tK5Q)
 
 I'm a software developer with specialties in design, game development, and virtual reality. I live in Pembroke Pines, Florida and work / student @ FIU while also taking contracts. 
 
