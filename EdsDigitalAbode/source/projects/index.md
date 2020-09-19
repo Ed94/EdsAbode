@@ -93,8 +93,8 @@ The project was done in Unity in 9 weeks. It was my first major project using a 
 
 First project in Unreal Engine, used the multiplayer template provided via the unreal learn's gameplay concepts section. We attempted to port the template to VR perserving the multiplayer functionality. Unfortunately due to constraints we ended up instead making a shooting gallery with the assets during the demo presentation.
 
-{% youtuber video r8wUAzsmNuI  %}
-{% endyoutuber %}
+<!-- {% youtuber video r8wUAzsmNuI  %} -->
+<!-- {% endyoutuber %} -->
 
 # <div align="center"> Personal
 
