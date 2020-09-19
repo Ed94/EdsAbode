@@ -51,7 +51,10 @@ The ACS (Academic and Student Success) Department at FIU approached the ICAVE wi
 
 We provided an implementation made in Unreal 4.23, that supported both lan and using the steam multiplayer for remote sessions. Since this was a prototype the implementation was essentially entirely in Blueprints using the advanced sessions plugin and virtual reality expansion plugin (VREP).
 
-
+{% youtuber video YEMYDZzK74E %}
+{% endyoutuber %}
+{% youtuber video nmyWYVrwxC0 %}
+{% endyoutuber %}
 
 
 ## Classes
@@ -67,9 +70,6 @@ This is a wrapping library I made for OpenGL, GLFW, and GLM for the purpose of l
 At first I did it in my non-standard C++ using my cpp alias and later translated and continued to work on it in standard c++ 17. I also made a nice little action queue for inputs to learn some advanced template for generating and handling delegates of arbitrary functions.
 
 <img src="https://i.imgur.com/v3rBHOW.gif" width="500">
-
-
-
 
 ## Spark Dev
 
@@ -93,7 +93,8 @@ The project was done in Unity in 9 weeks. It was my first major project using a 
 
 First project in Unreal Engine, used the multiplayer template provided via the unreal learn's gameplay concepts section. We attempted to port the template to VR perserving the multiplayer functionality. Unfortunately due to constraints we ended up instead making a shooting gallery with the assets during the demo presentation.
 
-
+{% youtuber video r8wUAzsmNuI  %}
+{% endyoutuber %}
 
 # <div align="center"> Personal
 
