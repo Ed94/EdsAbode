@@ -84,7 +84,6 @@ The pilot semester for spark dev, a program at FIU that allows students to work 
 The project was done in Unity in 9 weeks. It was my first major project using a fully-featured game engine, before this I had only used game frameworks like Monogame for C# and SDL 2.0 for C++. We were able to get all the functionality we wanted minus the multiplayer unfortunately.
 
 
-
 ### **Multiplayer Shootout**
 
 *Janurary 2018 - April 2028*
@@ -98,9 +97,25 @@ First project in Unreal Engine, used the multiplayer template provided via the u
 
 # <div align="center"> Personal
 
+## Abstract Realm
+
+* May 2020 - Present*
+
+A Real-Time engine I am developing for future use and my portfolio.
+
+[Github](https://github.com/Ed94/AbstractRealm)
+
+## Vaulted Thermals
+
+* May 2020 - Present*
+
+A resdesign of Vulkan by wrapping the C-API in C++ 17.
+
+[Github](https://github.com/Ed94/VaultedThermals)
+
 ## NE Project 
 
-*August 2018 - Present*
+*August 2018 - March 2020 (Hiatus)*
 
 (Private) - Utilities Library: [Github](https://github.com/Ed94/NE_Utilities)
 
