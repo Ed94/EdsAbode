@@ -51,10 +51,10 @@ The ACS (Academic and Student Success) Department at FIU approached the ICAVE wi
 
 We provided an implementation made in Unreal 4.23, that supported both lan and using the steam multiplayer for remote sessions. Since this was a prototype the implementation was essentially entirely in Blueprints using the advanced sessions plugin and virtual reality expansion plugin (VREP).
 
-{% youtuber video YEMYDZzK74E %}
-{% endyoutuber %}
-{% youtuber video nmyWYVrwxC0 %}
-{% endyoutuber %}
+<!-- {% youtuber video YEMYDZzK74E %} -->
+<!-- {% endyoutuber %} -->
+<!-- {% youtuber video nmyWYVrwxC0 %} -->
+<!-- {% endyoutuber %} -->
 
 
 ## Classes
