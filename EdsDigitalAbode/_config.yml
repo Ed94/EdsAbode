@@ -101,3 +101,9 @@ deploy:
   type: git
   repo: https://github.com/Ed94/Ed94.github.io
   branch: master
+
+search:
+  path: search.xml
+  field: all
+  content: true
+  format: html

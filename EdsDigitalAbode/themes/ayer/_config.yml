@@ -1,6 +1,7 @@
 # 侧边栏菜单
 menu:
   Home: /
+#  Dev Rants: /devrants
   Projects: /projects
   About: /about
   Contact: /contact

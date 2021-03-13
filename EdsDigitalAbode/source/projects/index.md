@@ -6,6 +6,30 @@ date: 2020-04-09 22:19:27
 
 # <div align="center">Contract
 
+## Good War Games: Cattlepunk
+
+*
+
+## Unity College: Virtual Forest
+
+*September 2020 - November 2020*
+
+(Private)
+
+Tools Used: Unity (C#, Bakery, Magic Light Probe, Nature Renderer, Mesh Combine Studio)
+
+Unity College approached Metavoke to optimize and get consulting on their Virtual Forest expereince that had been developed by students. They had a working mvp that ran good enough on high end computers, but needed to run on a wide range of hardware (they wanted to start distributing the expereince to students for training). We provided documentation on the process and extended guides for the third-party tools we ended up using. Peformance was improved by more than 300%. Platform binaries were provided with an installer for ease of distribution (PC / Mac). 
+
+The graphical fidelity was also improved:
+
+Before:
+<img src="https://i.imgur.com/F3w2pyZ.png" width="500">
+After:
+<img src="https://i.imgur.com/WVWBDLR.jpg" width="500">
+<img src="https://i.imgur.com/tLHbmeR.jpg" width="500">
+
+
+
 ## VR Co-Location Prototype
 
 *September 2019 - Present*
@@ -36,14 +60,14 @@ The project was built using Mechdyne's getReal3D api and plugin for Unity 2017. 
 
 Version 1 was a rapidly developed prototype initially made by Fernando, Haczar, and Leo (ICAVE lab developers) before I had arrived at the ICAVE.Currently version 2 has been in development since I was hired to the ICAVE back in May 2018 and will be releasing most likely around Fall 2020. I was tasked with helping develop the simulation itself along with Haczar (co-worker). I ended up designing and implementing the majority of the simulation on the Unity side of things as well as polishing the lighting for release. The components of the simulation were design to be fully modular and scalable as with V2 it was intended to be used to make multiple scenarios rapdily once the first scenario was ready for release.
 
-<img src="https://i.imgur.com/hD0Os4k.png" width="500">
+<img src="https://i.imgur.com/hD0Os4k.png" width= "500">
 <img src="https://i.imgur.com/VA9qigf.png" width="500">
 <img src="https://i.imgur.com/Z40US7M.jpg" width="500">
 <img src="https://i.imgur.com/wj87QcB.png" width="500">
 
 ### **First Year Expereince**
 
-*February 2020 - Present*
+*February 2020 - November 2020*
 
 (Private)
 
@@ -101,17 +125,33 @@ First project in Unreal Engine, used the multiplayer template provided via the u
 
 * May 2020 - Present*
 
-A Real-Time engine I am developing for future use and my portfolio.
-
 [Github](https://github.com/Ed94/AbstractRealm)
 
-## Vaulted Thermals
+A Real-Time engine I am developing for future use and my portfolio.
+
+## Vaulted Vulkan
 
 * May 2020 - Present*
 
-A resdesign of Vulkan by wrapping the C-API in C++ 17.
+[Github](https://github.com/Ed94/VaultedVulkan)
 
-[Github](https://github.com/Ed94/VaultedThermals)
+Vulkan redesigned with modern C++. 
+
+I made this library to learn vulkan while also having a nicer interface to it in the long term.
+
+## Trial By Fire
+
+*October 2018 - Present*
+
+[Github](https://github.com/Trial-By-Fire)
+
+A conglomeration of projects attempt to do techncial learning using a different approach to traditional means.
+
+C Win32-Console Engine project has a completed version. (Although it needs some cleanup).
+
+Currently working on the C++ version of the Win32-Console Engine.
+
+(Passively worked on)
 
 ## NE Project 
 
@@ -132,17 +172,5 @@ I have the utilities library publicly on [github](https://github.com/Ed94/NE_Uti
 (Private)
 
 Virtual Reality Interaction Mechanic for Unreal.
-
-(On Hiatus)
-
-## Trial By Fire
-
-*October 2018 - Present*
-
-[Github](https://github.com/Trial-By-Fire)
-
-A conglomeration of projects attempt to do techncial learning using a different approach to traditional means.
-
-Last tackling drafts of different series...
 
 (On Hiatus)
